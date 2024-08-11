@@ -24,6 +24,12 @@ The primary metrics were Precision: 0.7315, Recall: 0.6382, and F1-score: 0.6816
 
 ## Ethical Considerations
 
+The data contains some features that could hold some bias based around race and gender which the data was trained on. Data should be interpretted with the results with that bias in mind. 
 
+The data was public but any data inputted into the model should be considered for review with any privacy regulations. 
 
 ## Caveats and Recommendations
+
+The model was used only for testing and research purposes and not for any production use. 
+
+The model will only perform based around the data it was provided meaning bad data in, equals bad data out. The Census data provided for the model may not be the best predictor for the general population. Better data sets and large sample size would improve the model.
